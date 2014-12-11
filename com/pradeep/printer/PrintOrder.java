@@ -14,7 +14,7 @@ public class PrintOrder {
 		USBAdapter usba = new USBAdapter();
 			usba.createConn(context);
 		try {
-			usba.openPort(context,msg);
+			usba.printMessage(context,msg);
 			usba.closeConnection(context);
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
