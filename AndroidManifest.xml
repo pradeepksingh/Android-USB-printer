@@ -15,8 +15,7 @@
     <application
         android:allowBackup="true"
         android:icon="@drawable/app_icon"
-        android:label="@string/app_name"
-        android:theme="@style/Theme.Usbprinter" >
+        android:label="@string/app_name" >
         <activity
             android:name="com.tastykhana.usbprinter.MainActivity"
             android:label="@string/app_name" >
